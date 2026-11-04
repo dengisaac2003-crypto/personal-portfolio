@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Deng Kuol | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#home" class="logo">
+                <img src="images/dk.png" alt="Deng Kuol Logo">
+                <span>DENG KUOL</span>
+            </a>
+
+            <!-- CSS-only mobile menu -->
+            <input type="checkbox" id="menu-check">
+
+            <label for="menu-check" class="menu-button">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <nav class="nav-links">
+                <a href="#home" onclick="scrollToSection('home')">Home</a>
+                <a href="#about" onclick="scrollToSection('about')">About</a>
+                <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                <a href="#projects" onclick="scrollToSection('projects')">Projects</a>
+                <a href="#contact" onclick="scrollToSection('contact')">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="container home-content">
+
+             <div class="home-text">
+                <p class="welcome">THIS IS MY PORTFOLIO</p>
+
+                <h1>  
+
+                    Hi, I'm <span>Deng Kuol</span>
+                </h1>
+
+                <h2>Software Engineering Student</h2>
+
+                <p class="home-description">
+                    I am a young and passionate software engineering student with a strong interest in web development and programming.
+                </p>
+
+                <div class="home-buttons">
+                    <a href="#projects" class="btn primary-btn" onclick="scrollToSection('projects')">
+                        View My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn" onclick="scrollToSection('contact')">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/dengisaac2003-crypto"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://t.me/the_real_deng211"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    <a href="mailto:dengisaac2003@gmail.com"
+                       aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                    <a href="tel:+251938056703"
+                       aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="home-image">
+                <div class="image-border">
+                    <img src="images/profile.jpg"
+                         alt="Deng Kuol profile photo">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-subtitle">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <p>
+                        My name is Deng Kuol, and I am a Software Engineering
+                        student at Jimma University in Ethiopia. I am very interested in web
+                        development, programming, and software design.
+                    </p>
+
+                    <p>
+                        I really do enjoy learning how technology works and using my
+                        knowledge to build practical projects. My goal is to
+                        become a skilled software engineer and contribute to
+                        meaningful technology solutions in my country, South Sudan.
+                    </p>
+
+                    <a href="#contact" class="btn primary-btn" onclick="scrollToSection('contact')">
+                        Let's Connect
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   
+    <section class="skills section" id="skills">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-subtitle">SKILLS IN PROGRESS</p>
+                <h2>My <span>Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Building the structure of web pages.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Designing and styling responsive websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Learning interactive web development.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>C++</h3>
+                    <p>Practicing programming and problem-solving.</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Data Structures</h3>
+                    <p>Understanding how data is organized and managed.</p>
+                </div>
+
+               <div class="skill-card">
+                  <i class="fas fa-database"></i>
+                  <h3>Database & SQL</h3>
+                  <p>Relational databases, SQL queries, table relationships, joins, and database design.</p>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-subtitle">WORK IN PROGRESS</p>
+                <h2>My <span>Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+
+                        <p>
+                          A personal website that introduces me, displays
+                          my skills, and provides my contact information.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Data Structures Implementation</h3>
+
+                        <p>
+                            A C++ project where I practice to implementing arrays, Linked Lists, Stacks, Queues and Hashing.
+                            
+                        </p>
+
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Data Structures</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>Student Record Management System</h3>
+
+                        <p>
+                            A program that allows users to manage student records, including adding, updating, and deleting student information.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Teamwork</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   
+    <section class="contact section" id="contact">
+        <div class="container">
+
+            <div class="section-heading">
+                <p class="section-subtitle">GET IN TOUCH</p>
+                <h2>Contact <span>Me</span></h2>
+            </div>
+
+            <div class="contact-content">
+
+                <div class="contact-text">
+                    <h3>Let's Connect</h3>
+
+                    <p>
+                        If you have a project idea, a question, or an
+                        opportunity?Just Feel free to contact me. I look forward
+                        to hearing from you, Thanks for visiting my portfolio!
+                    </p>
+                </div>
+
+                <div class="contact-details">
+
+                    <a href="mailto:dengisaac2003@gmail.com"
+                       class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <h4>Email</h4>
+                            <p>dengisaac2003@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <a href="tel:+251938056703"
+                       class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+251 938 056 703</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/the_real_deng211" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-telegram"></i>
+                        </div>
+
+                        <div>
+                            <h4>Telegram</h4>
+                            <p>@the_real_deng211</p>
+                        </div>
+
+                    <a href="https://github.com/dengisaac2003-crypto"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+
+                        <div>
+                            <h4>GitHub</h4>
+                            <p>dengisaac2003-crypto</p>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    
+    <footer class="footer">
+        <div class="container">
+
+            <a href="#home" class="footer-logo">
+                <img src="images/dk.png" alt="Deng Kuol Logo">
+                <h3>DENG KUOL</h3>
+            </a>
+
+            <p>
+                A software engineering student @Faculty of Computing & Informatics,JiT, Jimma University, Ethiopia.
+               
+            </p>
+
+            <p class="copyright">
+                &copy; 2026 Deng Kuol. All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+<script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', function() {
+            document.getElementById('menu-check').checked = false;
+        });
+    });
+</script>
+</body>
+</html>
